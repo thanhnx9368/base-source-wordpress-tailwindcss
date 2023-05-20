@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// Let's get this party started
+// -----------------------------------------------------------------------------
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0, 0, 0, 0.2);
+}
+ul{
+	padding: 0;
+	margin: 0;
+	padding: 0;
+	li{
+		list-style: none;
+	}
+}
+a,
+a:hover{
+	text-decoration: none !important;
+}
+
+html, body{
+	font-family: 'SVN-Gilroy-Regular';
+	font-size: 15px;
+	line-height: 23px;
+	color: #000000;
+	strong{
+		font-family: 'SVN-Gilroy-SemiBold';
+	}
+	h1{
+		font-size: 22px;
+		line-height: 26px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+	h2{
+		font-size: 20px;
+		line-height: 25px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+	h3{
+		font-size: 19px;
+		line-height: 24px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+	h4{
+		font-size: 18px;
+		line-height: 23px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+	h5{
+		font-size: 17px;
+		line-height: 23px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+	h6{
+		font-size: 16px;
+		line-height: 23px;
+		font-weight: inherit;
+		margin-bottom: 15px;
+		@include mediaMaxWidth(480px){
+			margin-bottom: 10px;
+		}
+	}
+}
