@@ -69,6 +69,7 @@ $paged = get_query_var('paged') ? get_query_var('paged') : 1;
     <title><?php echo esc_html($_siteInfo['title']); ?></title>
 
     <link type="image/x-icon" rel="shortcut icon" href="<?php echo IMAGE_URL; ?>/favicon.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
 
   <?php wp_head(); ?>
